@@ -1,15 +1,16 @@
+.barra{width:150px; height:30px; background:#ebebeb; position:relative;}
+.stars{position:absolute; left:0; top:0; width:100%;}
 .star{
 	float:left; 
 	width:30px; 
-	height:30px; 
-	background:#ebebeb;
-	margin-right:6px; 
+	height:30px;
 	text-align:center; 
 	position:relative; 
 	cursor:pointer;
 }
 .star.full{background:linear-gradient(to bottom, #fee24f, #f4bb2f)}
-.star .bg{float:left; height:30px; background:linear-gradient(to bottom, #fee24f, #f4bb2f);}
+
+.bg{float:left;height:30px; width:30%; background:linear-gradient(to bottom, #fee24f, #f4bb2f);}
 .starAbsolute{
 	position:absolute; 
 	top:0; 

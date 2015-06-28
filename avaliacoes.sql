@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `artigos` (
   `votos` int(11) NOT NULL,
   `pontos` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+)DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
 
 --
 -- Extraindo dados da tabela `artigos`

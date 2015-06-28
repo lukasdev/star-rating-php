@@ -22,15 +22,18 @@
 <span class="ratingAverage" data-average="<?php echo $calculo;?>"></span>
 <span class="article" data-id="<?php echo $id;?>"></span>
 
+<div class="barra">
+	<span class="bg"></span>
+	<span class="stars">
 <?php for($i=1; $i<=5; $i++):?>
+
+
 <span class="star" data-vote="<?php echo $i;?>">
 	<span class="starAbsolute"></span>
-	<span class="bg"></span>
 </span>
 <?php 
 	endfor;
-
-	echo '<p class="votos"><span>'.$artigo->votos.'</span> votos</p>';
+	echo '</span></div><p class="votos"><span>'.$artigo->votos.'</span> votos</p>';
 }
 ?>
 </body>
