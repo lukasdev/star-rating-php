@@ -1,0 +1,21 @@
+.star{
+	float:left; 
+	width:30px; 
+	height:30px; 
+	background:#ebebeb;
+	margin-right:6px; 
+	text-align:center; 
+	position:relative; 
+	cursor:pointer;
+}
+.star.full{background:linear-gradient(to bottom, #fee24f, #f4bb2f)}
+.star .bg{float:left; height:30px; background:linear-gradient(to bottom, #fee24f, #f4bb2f);}
+.starAbsolute{
+	position:absolute; 
+	top:0; 
+	left:0;
+	width:100%; 
+	height:100%; 
+	background:url(../starpng.png) top left no-repeat; 
+	background-size:cover;
+}
